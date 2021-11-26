@@ -6,7 +6,7 @@ date: 2021-11-01T15:16:58+01:00
 ---
 # create a GitHub repository
 
-Name it <yourgithubusername>.github.io
+Name it `<yourgithubusername>`.github.io
 
 Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.
 
@@ -19,7 +19,7 @@ In the terminal, that's a matter of running
 ```bash
 git init <YourRepositoryName>
 cd <YourRepositoryName>
-git remote add origin git@github.com:<YourUsername>/<YourRepositoryName>.git
+git remote add origin git@github.com:`YourUsername>/<YourRepositoryName>.git
 ```
 
 Then you can add this repository to your IDE if you use one (I will use VS Code here).
@@ -130,7 +130,7 @@ Since this is our first time publishing the website, we need to run an extra ste
 - Go to your repository's Settings tab on GitHub
 - Click the Pages tab on the left menu
 - Pick the Source for GitHub Pages as branch gh-pages and click Save.
-- That's it! Your website will appear online after a few seconds on https://<YourUsername>.github.io
+- That's it! Your website will appear online after a few seconds on `https://<YourUsername>.github.io`
 
 # Let's add Contents!
 
@@ -189,5 +189,5 @@ Once the ground work was done we were able to just focus on contents and that's 
 
 If you want to dive deeper, feel free to hang out and we can discuss stuff.
 
-<3
+`<3
 matcha
