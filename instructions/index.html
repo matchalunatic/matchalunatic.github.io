@@ -8,16 +8,16 @@
 <meta name=description content>
 <meta name=renderer content="webkit">
 <meta name=theme-color content="#ffffff">
-<link type=text/css rel=stylesheet href=/b2021/vendor/css/bootstrap.min.css>
-<link rel=stylesheet href=https://matchalunatic.github.io/b2021/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media=screen>
-<link rel=stylesheet href=https://matchalunatic.github.io/b2021/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media=screen>
-<script src=/b2021/vendor/js/loadCSS.js></script>
+<link type=text/css rel=stylesheet href=/vendor/css/bootstrap.min.css>
+<link rel=stylesheet href=https://matchalunatic.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media=screen>
+<link rel=stylesheet href=https://matchalunatic.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media=screen>
+<script src=/vendor/js/loadCSS.js></script>
 <script>loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons")</script>
-<script src=/b2021/js/toc.js></script>
+<script src=/js/toc.js></script>
 </head>
 <body>
 <div id=app><div id=sideContainer class=side-container>
-<a class="a-block nav-head false" href=https://matchalunatic.github.io/b2021>
+<a class="a-block nav-head false" href=https://matchalunatic.github.io/>
 <div class=nav-title>
 MatchaLunatic's women and queer folks poetry blog
 </div>
@@ -63,6 +63,14 @@ Publishing the source code: a first step
 <li>
 <a href=#%3ch4%3esuch%20an%20icon%3c%2fh4%3e onclick="onNavClick(`#<h4>such an icon</h4>-nav`)" id="<h4>such an icon</h4>-nav">
 such an icon
+</a>
+</li>
+</ul>
+</ul>
+</ul>
+<li>
+<a href=#publishing-the-website-now onclick="onNavClick(`#publishing-the-website-now-nav`)" id=publishing-the-website-now-nav>
+Publishing the website now
 </a>
 </li>
 </ul>
@@ -117,6 +125,14 @@ such an icon
 </a>
 </li>
 </ul>
+</ul>
+</ul>
+<li>
+<a href=#publishing-the-website-now onclick="onNavClick(`#publishing-the-website-now-nav`)" id=publishing-the-website-now-nav>
+Publishing the website now
+</a>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -133,7 +149,7 @@ such an icon
 menu
 </i>
 </button>
-<a id=navTitle class=navbar-brand href=https://matchalunatic.github.io/b2021>
+<a id=navTitle class=navbar-brand href=https://matchalunatic.github.io/>
 MatchaLunatic's women and queer folks poetry blog
 </a>
 <button type=button class=nav-darkmode-toggle id=darkModeToggleButton2>
@@ -144,7 +160,7 @@ dark_mode
 </div>
 </nav>
 <div class=single-column-header-container id=pageHead v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-<a href=https://matchalunatic.github.io/b2021>
+<a href=https://matchalunatic.github.io/>
 <div class=single-column-header-title>MatchaLunatic's women and queer folks poetry blog</div>
 </a>
 </div>
@@ -165,10 +181,9 @@ Create your own blog: instructions
 <div class=post-body-wrapper>
 <div class=post-body v-pre>
 <h1 id=create-a-github-repository>create a GitHub repository</h1>
-<p>give it whatever name you want, it will be used to access your website at</p>
-<p><code>https://&lt;YourGitHubUsername>.github.io/&lt;YourRepositoryName></code></p>
+<p>Name it .github.io</p>
 <p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.</p>
-<p>I chose to name my repository b2021, and I use the matchalunatic GitHub account for the demo, check it out at <a href=https://github.com/matchalunatic/b2021>https://github.com/matchalunatic/b2021</a>.</p>
+<p>Mine is <a href=https://github.com/matchalunatic/matchalunatic.github.io>https://github.com/matchalunatic/matchalunatic.github.io</a>, check it out!</p>
 <h1 id=create-a-local-repository-and-set-your-github-repository-as-remote>create a local repository and set your GitHub repository as remote</h1>
 <p>In the terminal, that&rsquo;s a matter of running</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git init &lt;YourRepositoryName&gt;
@@ -199,7 +214,7 @@ but overall it&rsquo;s simple:</p>
 line containing the following to that file:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=color:#a6e22e>theme</span> = <span style=color:#e6db74>&#39;diary&#39;</span>
 </code></pre></div><p>While we are at it we will also edit the infos about our blog. In the end the toml file will resemble that:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=color:#a6e22e>baseURL</span> = <span style=color:#e6db74>&#39;https://matchalunatic.github.io/b2021&#39;</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=color:#a6e22e>baseURL</span> = <span style=color:#e6db74>&#39;https://&lt;YourGitHubUsername&gt;.github.io/&#39;</span>
 <span style=color:#a6e22e>languageCode</span> = <span style=color:#e6db74>&#39;en-uk&#39;</span>
 <span style=color:#a6e22e>title</span> = <span style=color:#e6db74>&#34;MatchaLunatic&#39;s women and queer folks poetry blog&#34;</span>
 
@@ -223,7 +238,17 @@ git commit -m <span style=color:#e6db74>&#34;My first commit in this blog&#34;</
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git push -u origin main
 </code></pre></div><p>Using VS Code, you can click on the &lsquo;&mldr;&rsquo; icon next to the repository name and click on &ldquo;Push&rdquo;.</p>
 <p>If you refresh the page on GitHub, you will now see your source code! And so can everyone!</p>
-<h1 id=heading></h1>
+<h1 id=publishing-the-website-now>Publishing the website now</h1>
+<p>We now enter the world of DevOps. Without DevOps tools, in order to publish a Hugo website to GitHub pages you would need to do the following actions:</p>
+<ul>
+<li>run the <code>hugo</code> command to generate the <code>public</code> folder on your laptop</li>
+<li>create a Git branch <code>gh-pages</code> in your repository (using <code>git checkout -b gh-pages</code> for example)</li>
+<li>empty that branch and add only the <code>public</code> folder to it</li>
+<li>push that branch to the remote <code>gh-pages</code> branch on GitHub</li>
+<li>(first-time only) enable GitHub Pages in the repository settings on GitHub</li>
+</ul>
+<p>We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.</p>
+<p>The action is available from <a href=https://github.com/peaceiris/actions-hugo>https://github.com/peaceiris/actions-hugo</a>, and you can copy mine from here:</p>
 <hr width=100% id=EOF>
 <p style=color:#777>Last modified on 2021-11-26</p>
 </div>
@@ -250,6 +275,6 @@ Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">M
 1 MatchaLunatic's women and queer folks poetry blog
 </div>
 </div>
-<script src=/b2021/js/journal.js></script>
+<script src=/js/journal.js></script>
 </body>
 </html>

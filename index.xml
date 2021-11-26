@@ -1,8 +1,7 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MatchaLunatic's women and queer folks poetry blog</title><link>https://matchalunatic.github.io/b2021/</link><description>Recent content on MatchaLunatic's women and queer folks poetry blog</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><atom:link href="https://matchalunatic.github.io/b2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/b2021/instructions/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/b2021/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/b2021/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
-&lt;p>give it whatever name you want, it will be used to access your website at&lt;/p>
-&lt;p>&lt;code>https://&amp;lt;YourGitHubUsername&amp;gt;.github.io/&amp;lt;YourRepositoryName&amp;gt;&lt;/code>&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MatchaLunatic's women and queer folks poetry blog</title><link>https://matchalunatic.github.io/</link><description>Recent content on MatchaLunatic's women and queer folks poetry blog</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><atom:link href="https://matchalunatic.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/instructions/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
+&lt;p>Name it &lt;!-- raw HTML omitted -->.github.io&lt;/p>
 &lt;p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.&lt;/p>
-&lt;p>I chose to name my repository b2021, and I use the matchalunatic GitHub account for the demo, check it out at &lt;a href="https://github.com/matchalunatic/b2021">https://github.com/matchalunatic/b2021&lt;/a>.&lt;/p>
+&lt;p>Mine is &lt;a href="https://github.com/matchalunatic/matchalunatic.github.io">https://github.com/matchalunatic/matchalunatic.github.io&lt;/a>, check it out!&lt;/p>
 &lt;h1 id="create-a-local-repository-and-set-your-github-repository-as-remote">create a local repository and set your GitHub repository as remote&lt;/h1>
 &lt;p>In the terminal, that&amp;rsquo;s a matter of running&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git init &amp;lt;YourRepositoryName&amp;gt;
@@ -33,7 +32,7 @@ but overall it&amp;rsquo;s simple:&lt;/p>
 line containing the following to that file:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>While we are at it we will also edit the infos about our blog. In the end the toml file will resemble that:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">baseURL&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;https://matchalunatic.github.io/b2021&amp;#39;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">baseURL&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;https://&amp;lt;YourGitHubUsername&amp;gt;.github.io/&amp;#39;&lt;/span>
 &lt;span style="color:#a6e22e">languageCode&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;en-uk&amp;#39;&lt;/span>
 &lt;span style="color:#a6e22e">title&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;MatchaLunatic&amp;#39;s women and queer folks poetry blog&amp;#34;&lt;/span>
 &lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
@@ -57,5 +56,15 @@ alt="a branch icon, with three dots and connecting lines forming a Y"/>&lt;figca
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git push -u origin main
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Using VS Code, you can click on the &amp;lsquo;&amp;hellip;&amp;rsquo; icon next to the repository name and click on &amp;ldquo;Push&amp;rdquo;.&lt;/p>
 &lt;p>If you refresh the page on GitHub, you will now see your source code! And so can everyone!&lt;/p>
-&lt;h1 id="heading">&lt;/h1>
-- https://matchalunatic.github.io/b2021/instructions/ -</description></item></channel></rss>
+&lt;h1 id="publishing-the-website-now">Publishing the website now&lt;/h1>
+&lt;p>We now enter the world of DevOps. Without DevOps tools, in order to publish a Hugo website to GitHub pages you would need to do the following actions:&lt;/p>
+&lt;ul>
+&lt;li>run the &lt;code>hugo&lt;/code> command to generate the &lt;code>public&lt;/code> folder on your laptop&lt;/li>
+&lt;li>create a Git branch &lt;code>gh-pages&lt;/code> in your repository (using &lt;code>git checkout -b gh-pages&lt;/code> for example)&lt;/li>
+&lt;li>empty that branch and add only the &lt;code>public&lt;/code> folder to it&lt;/li>
+&lt;li>push that branch to the remote &lt;code>gh-pages&lt;/code> branch on GitHub&lt;/li>
+&lt;li>(first-time only) enable GitHub Pages in the repository settings on GitHub&lt;/li>
+&lt;/ul>
+&lt;p>We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.&lt;/p>
+&lt;p>The action is available from &lt;a href="https://github.com/peaceiris/actions-hugo">https://github.com/peaceiris/actions-hugo&lt;/a>, and you can copy mine from here:&lt;/p>
+- https://matchalunatic.github.io/instructions/ -</description></item></channel></rss>
