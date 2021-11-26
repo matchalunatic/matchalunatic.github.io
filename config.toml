@@ -1,0 +1,5 @@
+baseURL = 'https://matchalunatic.github.io/b2021'
+languageCode = 'en-uk'
+title = "MatchaLunatic's women and queer folks poetry blog"
+
+theme = 'diary'
