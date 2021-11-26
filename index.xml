@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MatchaLunatic's women and queer folks poetry blog</title><link>https://matchalunatic.github.io/b2021/</link><description>Recent content on MatchaLunatic's women and queer folks poetry blog</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><atom:link href="https://matchalunatic.github.io/b2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/b2021/instructions/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/b2021/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/b2021/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
+&lt;p>give it whatever name you want, it will be used to access your website at&lt;/p>
+&lt;p>&lt;code>https://&amp;lt;YourGitHubUsername&amp;gt;.github.io/&amp;lt;YourRepositoryName&amp;gt;&lt;/code>&lt;/p>
+&lt;p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.&lt;/p>
+&lt;p>I chose to name my repository b2021, and I use the matchalunatic GitHub account for the demo, check it out at &lt;a href="https://github.com/matchalunatic/b2021">https://github.com/matchalunatic/b2021&lt;/a>.&lt;/p>
+&lt;h1 id="create-a-local-repository-and-set-your-github-repository-as-remote">create a local repository and set your GitHub repository as remote&lt;/h1>
+&lt;p>In the terminal, that&amp;rsquo;s a matter of running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git init &amp;lt;YourRepositoryName&amp;gt;
+cd &amp;lt;YourRepositoryName&amp;gt;
+git remote add origin git@github.com:&amp;lt;YourUsername&amp;gt;/&amp;lt;YourRepositoryName&amp;gt;.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can add this repository to your IDE if you use one (I will use VS Code here).&lt;/p>
+&lt;p>If you are not into CLI it&amp;rsquo;s okay too. With VS Code, there are a few more steps
+but overall it&amp;rsquo;s simple:&lt;/p>
+&lt;ul>
+&lt;li>open the command palette (Ctrl+shift+P on Windows and Linux, Command+shift+P on a Mac)&lt;/li>
+&lt;li>search for the Clone repository action (type &amp;ldquo;Clone&amp;rdquo; and it will find it) and run it&lt;/li>
+&lt;li>when asked for it, paste the &lt;code>git@github.com:...&lt;/code> URL provided&lt;/li>
+&lt;li>select &amp;ldquo;Clone from GitHub&amp;rdquo;&lt;/li>
+&lt;li>allow the GitHub extension to access your GitHub account, it&amp;rsquo;s safe&lt;/li>
+&lt;li>then pick the location where you want your GitHub repository to be cloned&lt;/li>
+&lt;li>and add it to your workspace!&lt;/li>
+&lt;/ul>
+&lt;h1 id="bootstrapping-hugo">Bootstrapping Hugo&lt;/h1>
+&lt;p>This uses the terminal, so please open your favorite terminal and switch to the newly created repository folder.&lt;/p>
+&lt;p>Tip: if you use VS Code, you just have to right-click the folder and click &amp;ldquo;Open in integrated terminal&amp;rdquo;.&lt;/p>
+&lt;p>Then run the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo new site . --force
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will create a Hugo site in your Git repository. We are almost there, as we need to pick a theme. I propose we use the Diary theme&lt;/p>
+&lt;p>This is done with the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git submodule add https://github.com/AmazingRise/hugo-theme-diary.git themes/diary
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This clones the Diary theme of Hugo to the &lt;code>themes/diary&lt;/code> folder in your local project.&lt;/p>
+&lt;p>Then we just need to edit the config.toml file to tell Hugo we want to use that theme: just add a
+line containing the following to that file:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>While we are at it we will also edit the infos about our blog. In the end the toml file will resemble that:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">baseURL&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;https://matchalunatic.github.io/b2021&amp;#39;&lt;/span>
+&lt;span style="color:#a6e22e">languageCode&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;en-uk&amp;#39;&lt;/span>
+&lt;span style="color:#a6e22e">title&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;MatchaLunatic&amp;#39;s women and queer folks poetry blog&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be very generic for the moment but we can already see it working by running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>and clicking the provided link. This is only a local server but you now got something ready to create content. Let&amp;rsquo;s publish the source for that already&lt;/p>
+&lt;h1 id="publishing-the-source-code-a-first-step">Publishing the source code: a first step&lt;/h1>
+&lt;p>We will commit the code. This is basically publishing the changeset we made to it online, in a distinct object with an author (you), a date, a message, and contents.&lt;/p>
+&lt;p>Using the terminal, this is done like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git add .
+git commit -m &lt;span style="color:#e6db74">&amp;#34;My first commit in this blog&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Using VS Code, you need to enter the &amp;ldquo;Source Control&amp;rdquo; panel in the toolbar.&lt;/p>
+&lt;figure>&lt;img src="scicon.png"
+alt="a branch icon, with three dots and connecting lines forming a Y"/>&lt;figcaption>
+&lt;h4>such an icon&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>then right click on &amp;ldquo;Changes&amp;rdquo;, select &amp;ldquo;Stage all Changes&amp;rdquo;, then enter a Message on top of the &amp;ldquo;Staged changes&amp;rdquo; section and validate with Ctrl+Enter&lt;/p>
+&lt;p>Now we have created a change and committed it to the repository. We can send it to GitHub and the source code will then be published.&lt;/p>
+&lt;p>Using the terminal, it&amp;rsquo;s done this way:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git push -u origin main
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Using VS Code, you can click on the &amp;lsquo;&amp;hellip;&amp;rsquo; icon next to the repository name and click on &amp;ldquo;Push&amp;rdquo;.&lt;/p>
+&lt;p>If you refresh the page on GitHub, you will now see your source code! And so can everyone!&lt;/p>
+&lt;h1 id="heading">&lt;/h1>
+- https://matchalunatic.github.io/b2021/instructions/ -</description></item></channel></rss>
