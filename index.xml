@@ -440,4 +440,111 @@ I give and I ask for only one thing—&lt;/p>
 &lt;p>Hear me. Hear me. Hear me. Hear me. Hear me.&lt;br>
 Hear me. Bear the weight of my voice and don’t forget—&lt;br>
 things haunt. Things exist long after they are killed.&lt;/p>
-- https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/ -</description></item></channel></rss>
+- https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/ -</description></item><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/instructions/</link><pubDate>Mon, 01 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
+&lt;p>Name it &lt;!-- raw HTML omitted -->.github.io&lt;/p>
+&lt;p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.&lt;/p>
+&lt;p>Mine is &lt;a href="https://github.com/matchalunatic/matchalunatic.github.io">https://github.com/matchalunatic/matchalunatic.github.io&lt;/a>, check it out!&lt;/p>
+&lt;h1 id="create-a-local-repository-and-set-your-github-repository-as-remote">create a local repository and set your GitHub repository as remote&lt;/h1>
+&lt;p>In the terminal, that&amp;rsquo;s a matter of running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git init &amp;lt;YourRepositoryName&amp;gt;
+cd &amp;lt;YourRepositoryName&amp;gt;
+git remote add origin git@github.com:&amp;lt;YourUsername&amp;gt;/&amp;lt;YourRepositoryName&amp;gt;.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can add this repository to your IDE if you use one (I will use VS Code here).&lt;/p>
+&lt;p>If you are not into CLI it&amp;rsquo;s okay too. With VS Code, there are a few more steps
+but overall it&amp;rsquo;s simple:&lt;/p>
+&lt;ul>
+&lt;li>open the command palette (Ctrl+shift+P on Windows and Linux, Command+shift+P on a Mac)&lt;/li>
+&lt;li>search for the Clone repository action (type &amp;ldquo;Clone&amp;rdquo; and it will find it) and run it&lt;/li>
+&lt;li>when asked for it, paste the &lt;code>git@github.com:...&lt;/code> URL provided&lt;/li>
+&lt;li>select &amp;ldquo;Clone from GitHub&amp;rdquo;&lt;/li>
+&lt;li>allow the GitHub extension to access your GitHub account, it&amp;rsquo;s safe&lt;/li>
+&lt;li>then pick the location where you want your GitHub repository to be cloned&lt;/li>
+&lt;li>and add it to your workspace!&lt;/li>
+&lt;/ul>
+&lt;h1 id="bootstrapping-hugo">Bootstrapping Hugo&lt;/h1>
+&lt;p>This uses the terminal, so please open your favorite terminal and switch to the newly created repository folder.&lt;/p>
+&lt;p>Tip: if you use VS Code, you just have to right-click the folder and click &amp;ldquo;Open in integrated terminal&amp;rdquo;.&lt;/p>
+&lt;p>Then run the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo new site . --force
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will create a Hugo site in your Git repository. We are almost there, as we need to pick a theme. I propose we use the Diary theme&lt;/p>
+&lt;p>This is done with the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git submodule add https://github.com/AmazingRise/hugo-theme-diary.git themes/diary
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This clones the Diary theme of Hugo to the &lt;code>themes/diary&lt;/code> folder in your local project.&lt;/p>
+&lt;p>Then we just need to edit the config.toml file to tell Hugo we want to use that theme: just add a
+line containing the following to that file:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>While we are at it we will also edit the infos about our blog. In the end the toml file will resemble that:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">baseURL&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;https://&amp;lt;YourGitHubUsername&amp;gt;.github.io/&amp;#39;&lt;/span>
+&lt;span style="color:#a6e22e">languageCode&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;en-uk&amp;#39;&lt;/span>
+&lt;span style="color:#a6e22e">title&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;MatchaLunatic&amp;#39;s women and queer folks poetry blog&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#39;diary&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be very generic for the moment but we can already see it working by running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>and clicking the provided link. This is only a local server but you now got something ready to create content. Let&amp;rsquo;s publish the source for that already&lt;/p>
+&lt;h1 id="publishing-the-source-code-a-first-step">Publishing the source code: a first step&lt;/h1>
+&lt;p>We will commit the code. This is basically publishing the changeset we made to it online, in a distinct object with an author (you), a date, a message, and contents.&lt;/p>
+&lt;p>Using the terminal, this is done like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git add .
+git commit -m &lt;span style="color:#e6db74">&amp;#34;My first commit in this blog&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Using VS Code, you need to enter the &amp;ldquo;Source Control&amp;rdquo; panel in the toolbar.&lt;/p>
+&lt;figure>&lt;img src="scicon.png"
+alt="a branch icon, with three dots and connecting lines forming a Y"/>&lt;figcaption>
+&lt;h4>such an icon&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>then right click on &amp;ldquo;Changes&amp;rdquo;, select &amp;ldquo;Stage all Changes&amp;rdquo;, then enter a Message on top of the &amp;ldquo;Staged changes&amp;rdquo; section and validate with Ctrl+Enter&lt;/p>
+&lt;p>Now we have created a change and committed it to the repository. We can send it to GitHub and the source code will then be published.&lt;/p>
+&lt;p>Using the terminal, it&amp;rsquo;s done this way:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git push -u origin main
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Using VS Code, you can click on the &amp;lsquo;&amp;hellip;&amp;rsquo; icon next to the repository name and click on &amp;ldquo;Push&amp;rdquo;.&lt;/p>
+&lt;p>If you refresh the page on GitHub, you will now see your source code! And so can everyone!&lt;/p>
+&lt;h1 id="publishing-the-website-now">Publishing the website now&lt;/h1>
+&lt;p>We now enter the world of DevOps. Without DevOps tools, in order to publish a Hugo website to GitHub pages you would need to do the following actions:&lt;/p>
+&lt;ul>
+&lt;li>run the &lt;code>hugo&lt;/code> command to generate the &lt;code>public&lt;/code> folder on your laptop&lt;/li>
+&lt;li>create a Git branch &lt;code>gh-pages&lt;/code> in your repository (using &lt;code>git checkout -b gh-pages&lt;/code> for example)&lt;/li>
+&lt;li>empty that branch and add only the &lt;code>public&lt;/code> folder to it&lt;/li>
+&lt;li>push that branch to the remote &lt;code>gh-pages&lt;/code> branch on GitHub&lt;/li>
+&lt;li>(first-time only) enable GitHub Pages in the repository settings on GitHub&lt;/li>
+&lt;/ul>
+&lt;p>We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.&lt;/p>
+&lt;p>The action is available from &lt;a href="https://github.com/peaceiris/actions-hugo">https://github.com/peaceiris/actions-hugo&lt;/a>, and you can copy mine from here: &lt;a href="https://github.com/matchalunatic/matchalunatic.github.io/blob/main/.github/workflows/gh-pages.yml">https://github.com/matchalunatic/matchalunatic.github.io/blob/main/.github/workflows/gh-pages.yml&lt;/a> (click the &amp;ldquo;Copy Raw contents&amp;rdquo; button which is 2 stacked squares). You can just copy it as-is.&lt;/p>
+&lt;p>Commit and push your changes like before, and the GitHub action will trigger. You can check it out directly from GitHub by clicking the Actions button on the menu bar of your repository.&lt;/p>
+&lt;p>Since this is our first time publishing the website, we need to run an extra step just this once:&lt;/p>
+&lt;ul>
+&lt;li>Go to your repository&amp;rsquo;s Settings tab on GitHub&lt;/li>
+&lt;li>Click the Pages tab on the left menu&lt;/li>
+&lt;li>Pick the Source for GitHub Pages as branch gh-pages and click Save.&lt;/li>
+&lt;li>That&amp;rsquo;s it! Your website will appear online after a few seconds on https://&lt;!-- raw HTML omitted -->.github.io&lt;/li>
+&lt;/ul>
+&lt;h1 id="lets-add-contents">Let&amp;rsquo;s add Contents!&lt;/h1>
+&lt;p>First let&amp;rsquo;s create an about-me page.&lt;/p>
+&lt;p>Open the terminal and run the following command&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo new about-me/index.md
+&amp;gt;&amp;gt; Content &lt;span style="color:#e6db74">&amp;#34;/home/matcha/personal/blog/b2021/content/about-me/index.md&amp;#34;&lt;/span> created
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Open the file whose path is given by the command and edit it a little so it looks like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-markdown" data-lang="markdown">---
+title: &amp;#34;About Me&amp;#34;
+date: 2021-11-26T17:32:08+01:00
+draft: false
+---
+# About me
+Hey, my name is Matcha and I am participating in a workshop!
+Happy to be here!
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can then check how it looks like locally by running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>and opening the link given by the command in your browser.&lt;/p>
+&lt;p>When you&amp;rsquo;re happy with the result, commit, push and see the results online: that&amp;rsquo;s DevOps magic.&lt;/p>
+&lt;h1 id="add-more-contents">Add more contents&lt;/h1>
+&lt;p>Pick one file from &lt;a href="https://github.com/matchalunatic/queer-and-womens-poems">https://github.com/matchalunatic/queer-and-womens-poems&lt;/a>. Download the file and add it to your repository under a &lt;code>contents/posts&lt;/code> folder.&lt;/p>
+&lt;p>Check the result locally. Then commit, push, see it online. More DevOps magic.&lt;/p>
+&lt;h1 id="cooperating">Cooperating&lt;/h1>
+&lt;p>DevOps is a lot about working together. Turn to your neighbour, ask them the URL for their Git repository, and you can work together.&lt;/p>
+&lt;p>We won&amp;rsquo;t have time for this right now but you can then clone their website locally, make changes (like adding a new poem or something else), and then open a Pull Request to their repository. This is a nice way to cooperate although there are others (like git branches).&lt;/p>
+&lt;h1 id="summary">Summary&lt;/h1>
+&lt;p>DevOps is about doing the heavy lifting as automatically as possible. For this workshop, I did not write a single line of code, I focused on what I wanted to do best: contents.&lt;/p>
+&lt;p>Once the ground work was done we were able to just focus on contents and that&amp;rsquo;s one of the great things with DevOps.&lt;/p>
+&lt;p>If you want to dive deeper, feel free to hang out and we can discuss stuff.&lt;/p>
+&lt;p>&amp;lt;3
+matcha&lt;/p>
+- https://matchalunatic.github.io/instructions/ -</description></item></channel></rss>
