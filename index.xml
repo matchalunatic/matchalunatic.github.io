@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MatchaLunatic's women and queer folks poetry blog</title><link>https://matchalunatic.github.io/</link><description>Recent content on MatchaLunatic's women and queer folks poetry blog</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><atom:link href="https://matchalunatic.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/instructions/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MatchaLunatic's women and queer folks poetry blog</title><link>https://matchalunatic.github.io/</link><description>Recent content on MatchaLunatic's women and queer folks poetry blog</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Fri, 26 Nov 2021 15:16:58 +0100</lastBuildDate><atom:link href="https://matchalunatic.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/instructions/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
 &lt;p>Name it &lt;!-- raw HTML omitted -->.github.io&lt;/p>
 &lt;p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.&lt;/p>
 &lt;p>Mine is &lt;a href="https://github.com/matchalunatic/matchalunatic.github.io">https://github.com/matchalunatic/matchalunatic.github.io&lt;/a>, check it out!&lt;/p>
@@ -67,4 +67,438 @@ alt="a branch icon, with three dots and connecting lines forming a Y"/>&lt;figca
 &lt;/ul>
 &lt;p>We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.&lt;/p>
 &lt;p>The action is available from &lt;a href="https://github.com/peaceiris/actions-hugo">https://github.com/peaceiris/actions-hugo&lt;/a>, and you can copy mine from here:&lt;/p>
-- https://matchalunatic.github.io/instructions/ -</description></item></channel></rss>
+- https://matchalunatic.github.io/instructions/ -</description></item><item><title>Home, by Warsan Shire</title><link>https://matchalunatic.github.io/posts/home-by-warsan-shire/</link><pubDate>Fri, 26 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/posts/home-by-warsan-shire/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/home-by-warsan-shire/ -&lt;h1 id="home-by-warsan-shire">Home, by Warsan Shire&lt;/h1>
+&lt;p>no one leaves home unless&lt;br>
+home is the mouth of a shark&lt;br>
+you only run for the border&lt;br>
+when you see the whole city running as well&lt;/p>
+&lt;p>your neighbors running faster than you&lt;br>
+breath bloody in their throats&lt;br>
+the boy you went to school with&lt;br>
+who kissed you dizzy behind the old tin factory&lt;br>
+is holding a gun bigger than his body&lt;br>
+you only leave home&lt;br>
+when home won’t let you stay.&lt;/p>
+&lt;p>no one leaves home unless home chases you&lt;br>
+fire under feet&lt;br>
+hot blood in your belly&lt;br>
+it’s not something you ever thought of doing&lt;br>
+until the blade burnt threats into&lt;br>
+your neck&lt;br>
+and even then you carried the anthem under&lt;br>
+your breath&lt;br>
+only tearing up your passport in an airport toilet&lt;br>
+sobbing as each mouthful of paper&lt;br>
+made it clear that you wouldn’t be going back.&lt;/p>
+&lt;p>you have to understand,&lt;br>
+that no one puts their children in a boat&lt;br>
+unless the water is safer than the land&lt;br>
+no one burns their palms&lt;br>
+under trains&lt;br>
+beneath carriages&lt;br>
+no one spends days and nights in the stomach of a truck&lt;br>
+feeding on newspaper unless the miles travelled&lt;br>
+means something more than journey.&lt;br>
+no one crawls under fences&lt;br>
+no one wants to be beaten&lt;br>
+pitied&lt;/p>
+&lt;p>no one chooses refugee camps&lt;br>
+or strip searches where your&lt;br>
+body is left aching&lt;br>
+or prison,&lt;br>
+because prison is safer&lt;br>
+than a city of fire&lt;br>
+and one prison guard&lt;br>
+in the night&lt;br>
+is better than a truckload&lt;br>
+of men who look like your father&lt;br>
+no one could take it&lt;br>
+no one could stomach it&lt;br>
+no one skin would be tough enough&lt;/p>
+&lt;p>the&lt;br>
+go home blacks&lt;br>
+refugees&lt;br>
+dirty immigrants&lt;br>
+asylum seekers&lt;br>
+sucking our country dry&lt;br>
+niggers with their hands out&lt;br>
+they smell strange&lt;br>
+savage&lt;br>
+messed up their country and now they want&lt;br>
+to mess ours up&lt;br>
+how do the words&lt;br>
+the dirty looks&lt;br>
+roll off your backs&lt;br>
+maybe because the blow is softer&lt;br>
+than a limb torn off&lt;/p>
+&lt;p>or the words are more tender&lt;br>
+than fourteen men between&lt;br>
+your legs&lt;br>
+or the insults are easier&lt;br>
+to swallow&lt;br>
+than rubble&lt;br>
+than bone&lt;br>
+than your child body&lt;br>
+in pieces.&lt;br>
+i want to go home,&lt;br>
+but home is the mouth of a shark&lt;br>
+home is the barrel of the gun&lt;br>
+and no one would leave home&lt;br>
+unless home chased you to the shore&lt;br>
+unless home told you&lt;br>
+to quicken your legs&lt;br>
+leave your clothes behind&lt;br>
+crawl through the desert&lt;br>
+wade through the oceans&lt;br>
+drown&lt;br>
+save&lt;br>
+be hunger&lt;br>
+beg&lt;br>
+forget pride&lt;br>
+your survival is more important&lt;/p>
+&lt;p>no one leaves home until home is a sweaty voice in your ear&lt;br>
+saying-&lt;br>
+leave,&lt;br>
+run away from me now&lt;br>
+i dont know what i’ve become&lt;br>
+but i know that anywhere&lt;br>
+is safer than here&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/nI9D92Xiygo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+- https://matchalunatic.github.io/posts/home-by-warsan-shire/ -</description></item><item><title>Breathe. As in. (shadow) by Rosamond S. King</title><link>https://matchalunatic.github.io/posts/breathe.as-in.shadow-by-rosamond-s-king/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/breathe.as-in.shadow-by-rosamond-s-king/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/breathe.as-in.shadow-by-rosamond-s-king/ -&lt;p>Breathe&lt;br>
+. As in what if&lt;br>
+the shadow is gold&lt;br>
+en? Breathe. As in&lt;br>
+hale assuming&lt;br>
+exhale. Imagine&lt;br>
+that.      As in first&lt;br>
+person singular. Homonym&lt;br>
+:eye. As in subject. As&lt;br>
+in centeroftheworld as in&lt;br>
+mundane. The opposite of spectacle&lt;br>
+spectacular. This is just us&lt;br>
+breathing. Imagine&lt;br>
+normalized respite&lt;br>
+gold in shadows&lt;br>
+. You have the&lt;br>
+right to breathe and remain&lt;br>
+. Imagine&lt;br>
+that&lt;br>
+.&lt;/p>
+- https://matchalunatic.github.io/posts/breathe.as-in.shadow-by-rosamond-s-king/ -</description></item><item><title>Hair, by Francisco Aragón</title><link>https://matchalunatic.github.io/posts/hair-by-francisco-aragon/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/hair-by-francisco-aragon/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/hair-by-francisco-aragon/ -&lt;p>&lt;em>for M&lt;/em>&lt;/p>
+&lt;ol>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;p>who conceived that ravine&lt;br>
+         or&lt;br>
+         the contour&lt;br>
+         of those slopes&lt;/p>
+&lt;p>Torbay&lt;br>
+                —washing&lt;br>
+over&lt;br>
+          him as he swims—&lt;/p>
+&lt;p>is trying to say&lt;br>
+                            don’t let&lt;br>
+                                             the barber&lt;br>
+                                    shave&lt;br>
+                        below&lt;br>
+his collar&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;p>I love&lt;br>
+breathing&lt;br>
+him in&lt;/p>
+&lt;p>my fingers&lt;br>
+raking&lt;br>
+his chest&lt;/p>
+&lt;p>a cub&lt;br>
+wanders&lt;br>
+the forest&lt;br>
+                        &lt;em>after Andrés Montoya &amp;amp; Francisco X. Alarcón&lt;/em>&lt;/p>
+- https://matchalunatic.github.io/posts/hair-by-francisco-aragon/ -</description></item><item><title>Kudzu, by Saeed Jones</title><link>https://matchalunatic.github.io/posts/kudzu-by-saeed-jones/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/kudzu-by-saeed-jones/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/kudzu-by-saeed-jones/ -&lt;p>           I won’t be forgiven&lt;/p>
+&lt;p>for what I’ve made&lt;/p>
+&lt;p>of myself.&lt;/p>
+&lt;p>            Soil recoils&lt;/p>
+&lt;p>from my hooked kisses.&lt;/p>
+&lt;p>            Pines turn their backs&lt;/p>
+&lt;p>on me. They know&lt;/p>
+&lt;p>what I can do&lt;/p>
+&lt;p>with the wrap of my legs.&lt;/p>
+&lt;p>            Each summer,&lt;/p>
+&lt;p>when the air becomes crowded&lt;/p>
+&lt;p>with want, I set all my tongues&lt;/p>
+&lt;p>upon you.&lt;/p>
+&lt;p>            To quiet this body,&lt;/p>
+&lt;p>you must answer&lt;/p>
+&lt;p>my tendrilled craving.&lt;/p>
+&lt;p>            All I’ve ever wanted&lt;/p>
+&lt;p>was to kiss crevices, pry them open,&lt;/p>
+&lt;p>and flourish within dew-slick&lt;/p>
+&lt;p>hollows.&lt;/p>
+&lt;p>            How you mistake&lt;/p>
+&lt;p>my affection.&lt;/p>
+&lt;p>            And if I ever strangled sparrows,&lt;/p>
+&lt;p>it was only because I dreamed&lt;/p>
+&lt;p>of better songs.&lt;/p>
+- https://matchalunatic.github.io/posts/kudzu-by-saeed-jones/ -</description></item><item><title>Langston Blue, by Jericho Brown</title><link>https://matchalunatic.github.io/posts/langston-blue-by-jericho-brown/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/langston-blue-by-jericho-brown/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/langston-blue-by-jericho-brown/ -&lt;p>“O Blood of the River of songs,&lt;br>
+O songs of the River of Blood,”&lt;br>
+       Let me lie down. Let my words&lt;/p>
+&lt;p>Lie sound in the mouths of men&lt;br>
+Repeating invocations pure&lt;br>
+       And perfect as a moan&lt;/p>
+&lt;p>That mounts in the mouth of Bessie Smith.&lt;br>
+Blues for the angels kicked out&lt;br>
+       Of heaven. Blues for the angels&lt;/p>
+&lt;p>Who miss them still. Blues&lt;br>
+For my people and what water&lt;br>
+       They know. O weary drinkers&lt;/p>
+&lt;p>Drinking from the bloody river,&lt;br>
+Why go to heaven with Harlem&lt;br>
+       So close? Why sing of rivers&lt;/p>
+&lt;p>With fathers of our own to miss?&lt;br>
+I remember mine and taste a stain&lt;br>
+       Like blood coursing the body&lt;/p>
+&lt;p>Of a man chased by a mob. I write&lt;br>
+His running, his sweat: here,&lt;br>
+       He climbs a poplar for the sky,&lt;/p>
+&lt;p>But it is only sky. The river?&lt;br>
+Follow me. You’ll see. We tried&lt;br>
+       To fly and learned we couldn’t&lt;/p>
+&lt;p>Swim. Dear singing river full&lt;br>
+Of my blood, are we as loud under&lt;br>
+       Water? Is it blood that binds&lt;/p>
+&lt;p>Brothers? Or is it the Mississippi&lt;br>
+Running through the fattest vein&lt;br>
+       Of America? When I say home,&lt;/p>
+&lt;p>I mean I wanted to write some&lt;br>
+Lines. I wanted to hear the blues,&lt;br>
+       But here I am swimming in the river&lt;/p>
+&lt;p>Again. What flows through the fat&lt;br>
+Veins of a drowned body? What&lt;br>
+       America can a body call&lt;/p>
+&lt;p>Home? When I say Congo, I mean&lt;br>
+Blood. When I say Nile, I mean blood.&lt;br>
+       When I say Euphrates, I mean,&lt;/p>
+&lt;p>If only you knew what blood&lt;br>
+We have in common. So much,&lt;br>
+       In Louisiana, they call a man like me&lt;/p>
+&lt;p>Red. And red was too dark&lt;br>
+For my daddy. And my daddy was&lt;br>
+       Too dark for America. He ran&lt;/p>
+&lt;p>Like a man from my mother&lt;br>
+And me. And my mother’s sobs&lt;br>
+       Are the songs of Bessie Smith&lt;/p>
+&lt;p>Who wears more feathers than&lt;br>
+Death. O the death my people refuse&lt;br>
+       To die. When I was 18, I wrote down&lt;/p>
+&lt;p>The river though I couldn’t win&lt;br>
+A race, climbed a tree that winter, then&lt;br>
+       Fell, flat on my wet, red face. Line&lt;/p>
+&lt;p>After line, I read all the time,&lt;br>
+But “there was nothing I could do&lt;br>
+       About race.”&lt;/p>
+- https://matchalunatic.github.io/posts/langston-blue-by-jericho-brown/ -</description></item><item><title>My Lover is a Woman, by Pat Parker</title><link>https://matchalunatic.github.io/posts/my-lover-is-a-woman-by-pat-parker/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/my-lover-is-a-woman-by-pat-parker/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/my-lover-is-a-woman-by-pat-parker/ -&lt;p>I.&lt;/p>
+&lt;p>my lover is a woman&lt;br>
+&amp;amp; when i hold her&lt;br>
+feel her warmth&lt;br>
+     i feel good&lt;br>
+     feel safe&lt;/p>
+&lt;p>then—i never think of&lt;br>
+my family’s voices&lt;br>
+never hear my sisters say&lt;br>
+bulldaggers, queers, funny&lt;br>
+     come see us, but don’t&lt;br>
+     bring your friends&lt;br>
+          it’s ok with us,&lt;br>
+          but don’t tell mama&lt;br>
+          it’d break her heart&lt;br>
+never feel my father&lt;br>
+turn in his grave&lt;br>
+never hear my mother cry&lt;br>
+Lord, what kind of child is this?&lt;/p>
+&lt;p>   &lt;/p>
+&lt;p>II.&lt;/p>
+&lt;p>my lover’s hair is blonde&lt;br>
+&amp;amp; when it rubs across my face&lt;br>
+it feels soft&lt;br>
+     feels like a thousand fingers&lt;br>
+     touch my skin &amp;amp; hold me&lt;br>
+          and i feel good&lt;/p>
+&lt;p>then—i never think of the little boy&lt;br>
+who spat &amp;amp; called me nigger&lt;br>
+never think of the policemen&lt;br>
+who kicked my body &amp;amp; said crawl&lt;br>
+never think of Black bodies&lt;br>
+hanging in trees or filled&lt;br>
+with bullet holes&lt;br>
+never hear my sisters say&lt;br>
+white folks hair stinks&lt;br>
+don’t trust any of them&lt;br>
+never feel my father&lt;br>
+turn in his grave&lt;br>
+never hear my mother talk&lt;br>
+of her backache after scrubbing floors&lt;br>
+never hear her cry&lt;br>
+Lord, what kind of child is this?&lt;/p>
+&lt;p>   &lt;/p>
+&lt;p>III.&lt;/p>
+&lt;p>my lover&amp;rsquo;s eyes are blue&lt;br>
+&amp;amp; when she looks at me&lt;br>
+i float in a warm lake&lt;br>
+     feel my muscles go weak with want&lt;br>
+          feel good&lt;br>
+          feel safe&lt;/p>
+&lt;p>then—i never think of the blue&lt;br>
+eyes that have glared at me&lt;br>
+moved three stools away from me&lt;br>
+in a bar&lt;br>
+never hear my sisters rage&lt;br>
+of syphilitic Black men as&lt;br>
+guinea pigs&lt;br>
+     rage of sterilized children&lt;br>
+          watch them just stop in an&lt;br>
+          intersection to scare the old&lt;br>
+          white bitch&lt;br>
+never feel my father turn&lt;br>
+in his grave&lt;br>
+never remember my mother&lt;br>
+teaching me the yes sirs &amp;amp; ma&amp;rsquo;ams&lt;br>
+to keep me alive&lt;br>
+never hear my mother cry&lt;br>
+Lord, what kind of child is this?&lt;/p>
+&lt;p>   &lt;/p>
+&lt;p>IV.&lt;/p>
+&lt;p>&amp;amp; when we go to a gay bar&lt;br>
+&amp;amp; my people shun me because i crossed&lt;br>
+the line&lt;br>
+&amp;amp; her people look to see what&amp;rsquo;s&lt;br>
+wrong with her&lt;br>
+     what defect&lt;br>
+     drove her to me&lt;/p>
+&lt;p>&amp;amp; when we walk the streets&lt;br>
+of this city&lt;br>
+     forget and touch&lt;br>
+     or hold hands&lt;br>
+          &amp;amp; the people&lt;br>
+          stare, glare, frown, &amp;amp; taunt&lt;br>
+               at those queers&lt;/p>
+&lt;p>i remember&lt;br>
+     every word taught me&lt;br>
+     every word said to me&lt;br>
+     every deed done to me&lt;br>
+          &amp;amp; then i hate&lt;br>
+i look at my lover&lt;br>
+&amp;amp; for an instant&lt;br>
+     doubt&lt;/p>
+&lt;p>then—i hold her hand tighter&lt;br>
+     &amp;amp; i can hear my mother cry.&lt;br>
+     Lord, what kind of child is this?&lt;/p>
+- https://matchalunatic.github.io/posts/my-lover-is-a-woman-by-pat-parker/ -</description></item><item><title>The Talking Back of Miss Valentine Jones: Poem # one, by June Jordan</title><link>https://matchalunatic.github.io/posts/the-talking-back-of-miss-valentine-jones-poem-number-one-by-june-jordan/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/the-talking-back-of-miss-valentine-jones-poem-number-one-by-june-jordan/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/the-talking-back-of-miss-valentine-jones-poem-number-one-by-june-jordan/ -&lt;p>well I wanted to braid my hair&lt;br>
+bathe and bedeck my&lt;br>
+self so fine&lt;br>
+so fully aforethought for&lt;br>
+your pleasure&lt;br>
+see:&lt;br>
+I wanted to travel and read&lt;br>
+and runaround fantastic&lt;br>
+into war and peace:&lt;br>
+I wanted to&lt;br>
+surf&lt;br>
+dive&lt;br>
+fly&lt;br>
+climb&lt;br>
+conquer&lt;br>
+and be conquered&lt;br>
+THEN&lt;br>
+I wanted to pickup the phone&lt;br>
+and find you asking me&lt;br>
+if I might possibly be alone&lt;br>
+some night&lt;br>
+(so I could answer cool&lt;br>
+as the jewels I would wear&lt;br>
+on bareskin for you&lt;br>
+digmedaddy delectation:)&lt;br>
+&amp;ldquo;WHEN&lt;br>
+you comin ova?&amp;rdquo;&lt;br>
+But I had to remember to write down&lt;br>
+margarine on the list&lt;br>
+and shoepolish and a can of&lt;br>
+sliced pineapple in casea company&lt;br>
+and a quarta skim milk cause Teresa&amp;rsquo;s&lt;br>
+gaining weight and don' nobody groove on&lt;br>
+that much&lt;br>
+girl&lt;br>
+and next I hadta sort for darks and lights before&lt;br>
+the laundry hit the water which I had&lt;br>
+to kinda keep an eye on be-&lt;br>
+cause if the big hose jumps the sink again that&lt;br>
+Mrs. Thompson gointa come upstairs&lt;br>
+and brain me with a mop don' smell too&lt;br>
+nice even though she hang&lt;br>
+it headfirst out the winda&lt;br>
+and I had to check&lt;br>
+on William like to&lt;br>
+burn hisself to death with fever&lt;br>
+boy so thin be&lt;br>
+callin all day &amp;ldquo;Momma! Sing to me?&amp;rdquo;&lt;br>
+&amp;ldquo;Ma! Am I gone die?&amp;rdquo; and me not&lt;br>
+wake enough to sit beside him longer than&lt;br>
+to wipeaway the sweat or change the sheets/&lt;br>
+his shirt and feed him orange&lt;br>
+juice before I fall out of sleep and&lt;br>
+Sweet My Jesus ain but one can&lt;br>
+left&lt;br>
+and we not thru the afternoon&lt;br>
+and now&lt;br>
+you (temporarily) shownup with a thing&lt;br>
+you says' a poem and you&lt;br>
+call it&lt;br>
+&amp;ldquo;Will The Real Miss Black America Standup?&amp;rdquo;&lt;/p>
+&lt;p>                       guilty po' mouth&lt;br>
+                       about duty beauties of my&lt;br>
+                       headrag&lt;br>
+                       boozeup doozies about&lt;br>
+                       never mind&lt;br>
+                       cause love is blind&lt;/p>
+&lt;p>well&lt;br>
+I can&amp;rsquo;t use it&lt;/p>
+&lt;p>and the very next bodacious Blackman&lt;br>
+call me queen&lt;br>
+because my life ain shit&lt;br>
+because (in any case) he ain been here to share it&lt;br>
+with me&lt;br>
+(dish for dish and do for do and&lt;br>
+dream for dream)&lt;br>
+I&amp;rsquo;m gone scream him out my house&lt;br>
+be-&lt;br>
+cause what I wanted was&lt;br>
+to braid my hair/bathe and bedeck my&lt;br>
+self so fully be-&lt;br>
+cause what I wanted was&lt;br>
+your love&lt;br>
+not pity&lt;br>
+be-&lt;br>
+cause what I wanted was&lt;br>
+your love&lt;br>
+your love&lt;/p>
+- https://matchalunatic.github.io/posts/the-talking-back-of-miss-valentine-jones-poem-number-one-by-june-jordan/ -</description></item><item><title>Things Haunt, by Joshua Jennifer Espinoza</title><link>https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/ -&lt;p>California is a desert and I am a woman inside it.&lt;br>
+The road ahead bends sideways and I lurch within myself.&lt;br>
+I’m full of ugly feelings, awful thoughts, bad dreams&lt;br>
+of doom, and so much love left unspoken.&lt;/p>
+&lt;p>Is mercury in retrograde? someone asks.&lt;br>
+Someone answers, No, it’s something else&lt;br>
+like that though. Something else like that.&lt;br>
+That should be my name.&lt;/p>
+&lt;p>When you ask me am I really a woman, a human being,&lt;br>
+a coherent identity, I’ll say No, I’m something else&lt;br>
+like that though.&lt;/p>
+&lt;p>A true citizen of planet earth closes their eyes&lt;br>
+and says what they are before the mirror.&lt;br>
+A good person gives and asks for nothing in return.&lt;br>
+I give and I ask for only one thing—&lt;/p>
+&lt;p>Hear me. Hear me. Hear me. Hear me. Hear me.&lt;br>
+Hear me. Bear the weight of my voice and don’t forget—&lt;br>
+things haunt. Things exist long after they are killed.&lt;/p>
+- https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/ -</description></item></channel></rss>

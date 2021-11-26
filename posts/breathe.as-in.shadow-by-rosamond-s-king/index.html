@@ -1,5 +1,5 @@
 <!doctype html><html><head>
-<title>Tags</title>
+<title>Breathe. As in. (shadow) by Rosamond S. King</title>
 <meta charset=utf-8>
 <meta name=X-UA-Compatible content="IE=edge">
 <meta name=google-site-verification content>
@@ -13,6 +13,7 @@
 <link rel=stylesheet href=https://matchalunatic.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media=screen>
 <script src=/vendor/js/loadCSS.js></script>
 <script>loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons")</script>
+<script src=/js/toc.js></script>
 </head>
 <body>
 <div id=app><div id=sideContainer class=side-container>
@@ -32,6 +33,8 @@ Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">M
 2021 MatchaLunatic's women and queer folks poetry blog
 </div>
 </div><div id=extraContainer class=extra-container>
+<div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+</div>
 <div class=pagination>
 <a id=globalBackToTop class="pagination-action animated-visibility" href=#top :class="{ invisible: scrollY == 0 }">
 <i class="material-icons pagination-action-icon">
@@ -48,6 +51,8 @@ dark_mode
 <div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
 <div class=drawer-content>
 <div class=drawer-menu>
+<div class=toc>
+</div>
 </div>
 </div>
 </div>
@@ -80,21 +85,57 @@ dark_mode
 <div id=content>
 <div id=streamContainer class=stream-container>
 <div class="post-list-container post-list-container-shadow">
-<a class=a-block>
-<div class="post-item-wrapper post-item-wrapper-no-hover">
-<div class="post-item post-item-no-gaps">
-<div class=post-item-info-wrapper>
-<div class="post-item-title post-item-title-small">
-Tags
+<div class=post>
+<div class=post-head-wrapper-text-only>
+<div class=post-title>
+Breathe. As in. (shadow) by Rosamond S. King
+<div class=post-meta>
+<time itemprop=datePublished>
+2021-11-26 00:00
+</time>
 </div>
 </div>
 </div>
+<div class=post-body-wrapper>
+<div class=post-body v-pre>
+<p>Breathe<br>
+. As in what if<br>
+the shadow is gold<br>
+en? Breathe. As in<br>
+hale assuming<br>
+exhale. Imagine<br>
+that.      As in first<br>
+person singular. Homonym<br>
+:eye. As in subject. As<br>
+in centeroftheworld as in<br>
+mundane. The opposite of spectacle<br>
+spectacular. This is just us<br>
+breathing. Imagine<br>
+normalized respite<br>
+gold in shadows<br>
+. You have the<br>
+right to breathe and remain<br>
+. Imagine<br>
+that<br>
+.</p>
+<hr width=100% id=EOF>
+<p style=color:#777>Last modified on 2021-11-26</p>
 </div>
+</div>
+<nav class=post-pagination>
+<a class=newer-posts href=https://matchalunatic.github.io/posts/home-by-warsan-shire/>
+Next<br>Home, by Warsan Shire
 </a>
+<a class=older-posts href=https://matchalunatic.github.io/posts/hair-by-francisco-aragon/>
+Previous<br>Hair, by Francisco Aragón
+</a>
+</nav>
+<div class=post-comment-wrapper>
 </div>
 </div>
 </div>
-<div id=single-column-footer>
+</div>
+</div><div id=single-column-footer>
 Hugo Theme <a href=https://github.com/amazingrise/hugo-theme-diary>Diary</a> by <a href=https://amazingrise.net>Rise</a>
 <br>
 Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">Makito</a>'s <a href=https://github.com/SumiMakito/hexo-theme-journal/ target=_blank rel="noreferrer noopener">Journal.</a> <br>

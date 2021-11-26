@@ -1,5 +1,5 @@
 <!doctype html><html><head>
-<title>Tags</title>
+<title>Kudzu, by Saeed Jones</title>
 <meta charset=utf-8>
 <meta name=X-UA-Compatible content="IE=edge">
 <meta name=google-site-verification content>
@@ -13,6 +13,7 @@
 <link rel=stylesheet href=https://matchalunatic.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media=screen>
 <script src=/vendor/js/loadCSS.js></script>
 <script>loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons")</script>
+<script src=/js/toc.js></script>
 </head>
 <body>
 <div id=app><div id=sideContainer class=side-container>
@@ -32,6 +33,8 @@ Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">M
 2021 MatchaLunatic's women and queer folks poetry blog
 </div>
 </div><div id=extraContainer class=extra-container>
+<div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+</div>
 <div class=pagination>
 <a id=globalBackToTop class="pagination-action animated-visibility" href=#top :class="{ invisible: scrollY == 0 }">
 <i class="material-icons pagination-action-icon">
@@ -48,6 +51,8 @@ dark_mode
 <div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
 <div class=drawer-content>
 <div class=drawer-menu>
+<div class=toc>
+</div>
 </div>
 </div>
 </div>
@@ -80,21 +85,62 @@ dark_mode
 <div id=content>
 <div id=streamContainer class=stream-container>
 <div class="post-list-container post-list-container-shadow">
-<a class=a-block>
-<div class="post-item-wrapper post-item-wrapper-no-hover">
-<div class="post-item post-item-no-gaps">
-<div class=post-item-info-wrapper>
-<div class="post-item-title post-item-title-small">
-Tags
+<div class=post>
+<div class=post-head-wrapper-text-only>
+<div class=post-title>
+Kudzu, by Saeed Jones
+<div class=post-meta>
+<time itemprop=datePublished>
+2021-11-26 00:00
+</time>
 </div>
 </div>
 </div>
+<div class=post-body-wrapper>
+<div class=post-body v-pre>
+<p>           I won’t be forgiven</p>
+<p>for what I’ve made</p>
+<p>of myself.</p>
+<p>            Soil recoils</p>
+<p>from my hooked kisses.</p>
+<p>            Pines turn their backs</p>
+<p>on me. They know</p>
+<p>what I can do</p>
+<p>with the wrap of my legs.</p>
+<p>            Each summer,</p>
+<p>when the air becomes crowded</p>
+<p>with want, I set all my tongues</p>
+<p>upon you.</p>
+<p>            To quiet this body,</p>
+<p>you must answer</p>
+<p>my tendrilled craving.</p>
+<p>            All I’ve ever wanted</p>
+<p>was to kiss crevices, pry them open,</p>
+<p>and flourish within dew-slick</p>
+<p>hollows.</p>
+<p>            How you mistake</p>
+<p>my affection.</p>
+<p>            And if I ever strangled sparrows,</p>
+<p>it was only because I dreamed</p>
+<p>of better songs.</p>
+<hr width=100% id=EOF>
+<p style=color:#777>Last modified on 2021-11-26</p>
 </div>
+</div>
+<nav class=post-pagination>
+<a class=newer-posts href=https://matchalunatic.github.io/posts/hair-by-francisco-aragon/>
+Next<br>Hair, by Francisco Aragón
 </a>
+<a class=older-posts href=https://matchalunatic.github.io/posts/langston-blue-by-jericho-brown/>
+Previous<br>Langston Blue, by Jericho Brown
+</a>
+</nav>
+<div class=post-comment-wrapper>
 </div>
 </div>
 </div>
-<div id=single-column-footer>
+</div>
+</div><div id=single-column-footer>
 Hugo Theme <a href=https://github.com/amazingrise/hugo-theme-diary>Diary</a> by <a href=https://amazingrise.net>Rise</a>
 <br>
 Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">Makito</a>'s <a href=https://github.com/SumiMakito/hexo-theme-journal/ target=_blank rel="noreferrer noopener">Journal.</a> <br>

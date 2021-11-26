@@ -1,5 +1,5 @@
 <!doctype html><html><head>
-<title>Tags</title>
+<title>Langston Blue, by Jericho Brown</title>
 <meta charset=utf-8>
 <meta name=X-UA-Compatible content="IE=edge">
 <meta name=google-site-verification content>
@@ -13,6 +13,7 @@
 <link rel=stylesheet href=https://matchalunatic.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media=screen>
 <script src=/vendor/js/loadCSS.js></script>
 <script>loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons")</script>
+<script src=/js/toc.js></script>
 </head>
 <body>
 <div id=app><div id=sideContainer class=side-container>
@@ -32,6 +33,8 @@ Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">M
 2021 MatchaLunatic's women and queer folks poetry blog
 </div>
 </div><div id=extraContainer class=extra-container>
+<div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+</div>
 <div class=pagination>
 <a id=globalBackToTop class="pagination-action animated-visibility" href=#top :class="{ invisible: scrollY == 0 }">
 <i class="material-icons pagination-action-icon">
@@ -48,6 +51,8 @@ dark_mode
 <div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
 <div class=drawer-content>
 <div class=drawer-menu>
+<div class=toc>
+</div>
 </div>
 </div>
 </div>
@@ -80,21 +85,94 @@ dark_mode
 <div id=content>
 <div id=streamContainer class=stream-container>
 <div class="post-list-container post-list-container-shadow">
-<a class=a-block>
-<div class="post-item-wrapper post-item-wrapper-no-hover">
-<div class="post-item post-item-no-gaps">
-<div class=post-item-info-wrapper>
-<div class="post-item-title post-item-title-small">
-Tags
+<div class=post>
+<div class=post-head-wrapper-text-only>
+<div class=post-title>
+Langston Blue, by Jericho Brown
+<div class=post-meta>
+<time itemprop=datePublished>
+2021-11-26 00:00
+</time>
 </div>
 </div>
 </div>
+<div class=post-body-wrapper>
+<div class=post-body v-pre>
+<p>“O Blood of the River of songs,<br>
+O songs of the River of Blood,”<br>
+       Let me lie down. Let my words</p>
+<p>Lie sound in the mouths of men<br>
+Repeating invocations pure<br>
+       And perfect as a moan</p>
+<p>That mounts in the mouth of Bessie Smith.<br>
+Blues for the angels kicked out<br>
+       Of heaven. Blues for the angels</p>
+<p>Who miss them still. Blues<br>
+For my people and what water<br>
+       They know. O weary drinkers</p>
+<p>Drinking from the bloody river,<br>
+Why go to heaven with Harlem<br>
+       So close? Why sing of rivers</p>
+<p>With fathers of our own to miss?<br>
+I remember mine and taste a stain<br>
+       Like blood coursing the body</p>
+<p>Of a man chased by a mob. I write<br>
+His running, his sweat: here,<br>
+       He climbs a poplar for the sky,</p>
+<p>But it is only sky. The river?<br>
+Follow me. You’ll see. We tried<br>
+       To fly and learned we couldn’t</p>
+<p>Swim. Dear singing river full<br>
+Of my blood, are we as loud under<br>
+       Water? Is it blood that binds</p>
+<p>Brothers? Or is it the Mississippi<br>
+Running through the fattest vein<br>
+       Of America? When I say home,</p>
+<p>I mean I wanted to write some<br>
+Lines. I wanted to hear the blues,<br>
+       But here I am swimming in the river</p>
+<p>Again. What flows through the fat<br>
+Veins of a drowned body? What<br>
+       America can a body call</p>
+<p>Home? When I say Congo, I mean<br>
+Blood. When I say Nile, I mean blood.<br>
+       When I say Euphrates, I mean,</p>
+<p>If only you knew what blood<br>
+We have in common. So much,<br>
+       In Louisiana, they call a man like me</p>
+<p>Red. And red was too dark<br>
+For my daddy. And my daddy was<br>
+       Too dark for America. He ran</p>
+<p>Like a man from my mother<br>
+And me. And my mother’s sobs<br>
+       Are the songs of Bessie Smith</p>
+<p>Who wears more feathers than<br>
+Death. O the death my people refuse<br>
+       To die. When I was 18, I wrote down</p>
+<p>The river though I couldn’t win<br>
+A race, climbed a tree that winter, then<br>
+       Fell, flat on my wet, red face. Line</p>
+<p>After line, I read all the time,<br>
+But “there was nothing I could do<br>
+       About race.”</p>
+<hr width=100% id=EOF>
+<p style=color:#777>Last modified on 2021-11-26</p>
 </div>
+</div>
+<nav class=post-pagination>
+<a class=newer-posts href=https://matchalunatic.github.io/posts/kudzu-by-saeed-jones/>
+Next<br>Kudzu, by Saeed Jones
 </a>
+<a class=older-posts href=https://matchalunatic.github.io/posts/my-lover-is-a-woman-by-pat-parker/>
+Previous<br>My Lover is a Woman, by Pat Parker
+</a>
+</nav>
+<div class=post-comment-wrapper>
 </div>
 </div>
 </div>
-<div id=single-column-footer>
+</div>
+</div><div id=single-column-footer>
 Hugo Theme <a href=https://github.com/amazingrise/hugo-theme-diary>Diary</a> by <a href=https://amazingrise.net>Rise</a>
 <br>
 Ported from <a href=https://mak1t0.cc/ target=_blank rel="noreferrer noopener">Makito</a>'s <a href=https://github.com/SumiMakito/hexo-theme-journal/ target=_blank rel="noreferrer noopener">Journal.</a> <br>
