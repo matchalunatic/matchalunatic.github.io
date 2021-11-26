@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Create your own blog: instructions"
-date: 2021-11-26T15:16:58+01:00
+date: 2021-11-30T15:16:58+01:00
 
 ---
 # create a GitHub repository
@@ -122,4 +122,72 @@ We now enter the world of DevOps. Without DevOps tools, in order to publish a Hu
 
 We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.
 
-The action is available from https://github.com/peaceiris/actions-hugo, and you can copy mine from here: 
+The action is available from https://github.com/peaceiris/actions-hugo, and you can copy mine from here: https://github.com/matchalunatic/matchalunatic.github.io/blob/main/.github/workflows/gh-pages.yml (click the "Copy Raw contents" button which is 2 stacked squares). You can just copy it as-is.
+
+Commit and push your changes like before, and the GitHub action will trigger. You can check it out directly from GitHub by clicking the Actions button on the menu bar of your repository.
+
+Since this is our first time publishing the website, we need to run an extra step just this once:
+- Go to your repository's Settings tab on GitHub
+- Click the Pages tab on the left menu
+- Pick the Source for GitHub Pages as branch gh-pages and click Save.
+- That's it! Your website will appear online after a few seconds on https://<YourUsername>.github.io
+
+# Let's add Contents!
+
+First let's create an about-me page.
+
+Open the terminal and run the following command
+
+```bash
+hugo new about-me/index.md
+>> Content "/home/matcha/personal/blog/b2021/content/about-me/index.md" created
+```
+
+Open the file whose path is given by the command and edit it a little so it looks like this:
+
+```markdown
+---
+title: "About Me"
+date: 2021-11-26T17:32:08+01:00
+draft: false
+---
+
+# About me
+
+Hey, my name is Matcha and I am participating in a workshop!
+
+Happy to be here!
+```
+
+You can then check how it looks like locally by running
+
+```bash
+hugo server -D
+```
+
+and opening the link given by the command in your browser.
+
+When you're happy with the result, commit, push and see the results online: that's DevOps magic.
+
+# Add more contents
+
+Pick one file from [https://github.com/matchalunatic/queer-and-womens-poems](https://github.com/matchalunatic/queer-and-womens-poems). Download the file and add it to your repository under a `contents/posts` folder.
+
+Check the result locally. Then commit, push, see it online. More DevOps magic.
+
+# Cooperating
+
+DevOps is a lot about working together. Turn to your neighbour, ask them the URL for their Git repository, and you can work together.
+
+We won't have time for this right now but you can then clone their website locally, make changes (like adding a new poem or something else), and then open a Pull Request to their repository. This is a nice way to cooperate although there are others (like git branches).
+
+# Summary
+
+DevOps is about doing the heavy lifting as automatically as possible. For this workshop, I did not write a single line of code, I focused on what I wanted to do best: contents.
+
+Once the ground work was done we were able to just focus on contents and that's one of the great things with DevOps.
+
+If you want to dive deeper, feel free to hang out and we can discuss stuff.
+
+<3
+matcha
