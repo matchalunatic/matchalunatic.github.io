@@ -6,13 +6,11 @@ date: 2021-11-26T15:16:58+01:00
 ---
 # create a GitHub repository
 
-give it whatever name you want, it will be used to access your website at
-
-`https://<YourGitHubUsername>.github.io/<YourRepositoryName>`
+Name it <yourgithubusername>.github.io
 
 Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.
 
-I chose to name my repository b2021, and I use the matchalunatic GitHub account for the demo, check it out at [https://github.com/matchalunatic/b2021](https://github.com/matchalunatic/b2021).
+Mine is [https://github.com/matchalunatic/matchalunatic.github.io](https://github.com/matchalunatic/matchalunatic.github.io), check it out!
 
 # create a local repository and set your GitHub repository as remote
 
@@ -68,7 +66,7 @@ theme = 'diary'
 While we are at it we will also edit the infos about our blog. In the end the toml file will resemble that:
 
 ```toml
-baseURL = 'https://matchalunatic.github.io/b2021'
+baseURL = 'https://<YourGitHubUsername>.github.io/'
 languageCode = 'en-uk'
 title = "MatchaLunatic's women and queer folks poetry blog"
 
@@ -112,4 +110,16 @@ Using VS Code, you can click on the '...' icon next to the repository name and c
 
 If you refresh the page on GitHub, you will now see your source code! And so can everyone!
 
-# 
+# Publishing the website now
+
+We now enter the world of DevOps. Without DevOps tools, in order to publish a Hugo website to GitHub pages you would need to do the following actions:
+
+- run the `hugo` command to generate the `public` folder on your laptop
+- create a Git branch `gh-pages` in your repository (using `git checkout -b gh-pages` for example)
+- empty that branch and add only the `public` folder to it
+- push that branch to the remote `gh-pages` branch on GitHub
+- (first-time only) enable GitHub Pages in the repository settings on GitHub
+
+We will make use of an automation tool, called a GitHub Action, that will do just that automatically each time we push our changes to the main branch of our repository.
+
+The action is available from https://github.com/peaceiris/actions-hugo, and you can copy mine from here: 
