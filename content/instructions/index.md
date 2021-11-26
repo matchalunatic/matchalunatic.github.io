@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Create your own blog: instructions"
-date: 2021-11-30T15:16:58+01:00
+date: 2021-11-01T15:16:58+01:00
 
 ---
 # create a GitHub repository
