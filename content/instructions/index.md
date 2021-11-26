@@ -10,7 +10,7 @@ give it whatever name you want, it will be used to access your website at
 
 `https://<YourGitHubUsername>.github.io/<YourRepositoryName>`
 
-Do not add a README or Gitignore or whatever: an empty repository is fine.
+Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.
 
 I chose to name my repository b2021, and I use the matchalunatic GitHub account for the demo, check it out at [https://github.com/matchalunatic/b2021](https://github.com/matchalunatic/b2021).
 
@@ -94,6 +94,22 @@ git add .
 git commit -m "My first commit in this blog"
 ```
 
-Using VS Code, you need to enter the "Source Control" panel:
+Using VS Code, you need to enter the "Source Control" panel in the toolbar.
 
 {{<figure title="such an icon" src="scicon.png" alt="a branch icon, with three dots and connecting lines forming a Y">}}
+
+then right click on "Changes", select "Stage all Changes", then enter a Message on top of the "Staged changes" section and validate with Ctrl+Enter
+
+Now we have created a change and committed it to the repository. We can send it to GitHub and the source code will then be published.
+
+Using the terminal, it's done this way:
+
+```bash
+git push -u origin main
+```
+
+Using VS Code, you can click on the '...' icon next to the repository name and click on "Push".
+
+If you refresh the page on GitHub, you will now see your source code! And so can everyone!
+
+# 
