@@ -441,14 +441,14 @@ I give and I ask for only one thing—&lt;/p>
 Hear me. Bear the weight of my voice and don’t forget—&lt;br>
 things haunt. Things exist long after they are killed.&lt;/p>
 - https://matchalunatic.github.io/posts/things-haunt-by-joshua-jennifer-espinoza/ -</description></item><item><title>Create your own blog: instructions</title><link>https://matchalunatic.github.io/instructions/</link><pubDate>Mon, 01 Nov 2021 15:16:58 +0100</pubDate><guid>https://matchalunatic.github.io/instructions/</guid><description>MatchaLunatic's women and queer folks poetry blog https://matchalunatic.github.io/instructions/ -&lt;h1 id="create-a-github-repository">create a GitHub repository&lt;/h1>
-&lt;p>Name it &lt;!-- raw HTML omitted -->.github.io&lt;/p>
+&lt;p>Name it &lt;code>&amp;lt;yourgithubusername&amp;gt;&lt;/code>.github.io&lt;/p>
 &lt;p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.&lt;/p>
 &lt;p>Mine is &lt;a href="https://github.com/matchalunatic/matchalunatic.github.io">https://github.com/matchalunatic/matchalunatic.github.io&lt;/a>, check it out!&lt;/p>
 &lt;h1 id="create-a-local-repository-and-set-your-github-repository-as-remote">create a local repository and set your GitHub repository as remote&lt;/h1>
 &lt;p>In the terminal, that&amp;rsquo;s a matter of running&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git init &amp;lt;YourRepositoryName&amp;gt;
 cd &amp;lt;YourRepositoryName&amp;gt;
-git remote add origin git@github.com:&amp;lt;YourUsername&amp;gt;/&amp;lt;YourRepositoryName&amp;gt;.git
+git remote add origin git@github.com:&lt;span style="color:#e6db74">`&lt;/span>YourUsername&amp;gt;/&amp;lt;YourRepositoryName&amp;gt;.git
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can add this repository to your IDE if you use one (I will use VS Code here).&lt;/p>
 &lt;p>If you are not into CLI it&amp;rsquo;s okay too. With VS Code, there are a few more steps
 but overall it&amp;rsquo;s simple:&lt;/p>
@@ -515,7 +515,7 @@ alt="a branch icon, with three dots and connecting lines forming a Y"/>&lt;figca
 &lt;li>Go to your repository&amp;rsquo;s Settings tab on GitHub&lt;/li>
 &lt;li>Click the Pages tab on the left menu&lt;/li>
 &lt;li>Pick the Source for GitHub Pages as branch gh-pages and click Save.&lt;/li>
-&lt;li>That&amp;rsquo;s it! Your website will appear online after a few seconds on https://&lt;!-- raw HTML omitted -->.github.io&lt;/li>
+&lt;li>That&amp;rsquo;s it! Your website will appear online after a few seconds on &lt;code>https://&amp;lt;YourUsername&amp;gt;.github.io&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h1 id="lets-add-contents">Let&amp;rsquo;s add Contents!&lt;/h1>
 &lt;p>First let&amp;rsquo;s create an about-me page.&lt;/p>
@@ -545,6 +545,6 @@ Happy to be here!
 &lt;p>DevOps is about doing the heavy lifting as automatically as possible. For this workshop, I did not write a single line of code, I focused on what I wanted to do best: contents.&lt;/p>
 &lt;p>Once the ground work was done we were able to just focus on contents and that&amp;rsquo;s one of the great things with DevOps.&lt;/p>
 &lt;p>If you want to dive deeper, feel free to hang out and we can discuss stuff.&lt;/p>
-&lt;p>&amp;lt;3
+&lt;p>`&amp;lt;3
 matcha&lt;/p>
 - https://matchalunatic.github.io/instructions/ -</description></item></channel></rss>

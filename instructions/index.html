@@ -221,14 +221,14 @@ Create your own blog: instructions
 <div class=post-body-wrapper>
 <div class=post-body v-pre>
 <h1 id=create-a-github-repository>create a GitHub repository</h1>
-<p>Name it .github.io</p>
+<p>Name it <code>&lt;yourgithubusername></code>.github.io</p>
 <p>Make it a public repository. Do not add a README or Gitignore or whatever: an empty repository is fine.</p>
 <p>Mine is <a href=https://github.com/matchalunatic/matchalunatic.github.io>https://github.com/matchalunatic/matchalunatic.github.io</a>, check it out!</p>
 <h1 id=create-a-local-repository-and-set-your-github-repository-as-remote>create a local repository and set your GitHub repository as remote</h1>
 <p>In the terminal, that&rsquo;s a matter of running</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git init &lt;YourRepositoryName&gt;
 cd &lt;YourRepositoryName&gt;
-git remote add origin git@github.com:&lt;YourUsername&gt;/&lt;YourRepositoryName&gt;.git
+git remote add origin git@github.com:<span style=color:#e6db74>`</span>YourUsername&gt;/&lt;YourRepositoryName&gt;.git
 </code></pre></div><p>Then you can add this repository to your IDE if you use one (I will use VS Code here).</p>
 <p>If you are not into CLI it&rsquo;s okay too. With VS Code, there are a few more steps
 but overall it&rsquo;s simple:</p>
@@ -295,7 +295,7 @@ git commit -m <span style=color:#e6db74>&#34;My first commit in this blog&#34;</
 <li>Go to your repository&rsquo;s Settings tab on GitHub</li>
 <li>Click the Pages tab on the left menu</li>
 <li>Pick the Source for GitHub Pages as branch gh-pages and click Save.</li>
-<li>That&rsquo;s it! Your website will appear online after a few seconds on https://.github.io</li>
+<li>That&rsquo;s it! Your website will appear online after a few seconds on <code>https://&lt;YourUsername>.github.io</code></li>
 </ul>
 <h1 id=lets-add-contents>Let&rsquo;s add Contents!</h1>
 <p>First let&rsquo;s create an about-me page.</p>
@@ -328,7 +328,7 @@ Happy to be here!
 <p>DevOps is about doing the heavy lifting as automatically as possible. For this workshop, I did not write a single line of code, I focused on what I wanted to do best: contents.</p>
 <p>Once the ground work was done we were able to just focus on contents and that&rsquo;s one of the great things with DevOps.</p>
 <p>If you want to dive deeper, feel free to hang out and we can discuss stuff.</p>
-<p>&lt;3
+<p>`&lt;3
 matcha</p>
 <hr width=100% id=EOF>
 <p style=color:#777>Last modified on 2021-11-01</p>
